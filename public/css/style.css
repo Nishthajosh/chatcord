@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-	--dark-color-a: #667aff;
-	--dark-color-b: #7386ff;
-	--light-color: #e6e9ff;
+	--dark-color-a: #F73D93;
+	--dark-color-b: #FA4EAB;
+	/* --light-color: #e6e9ff; */
 	--success-color: #5cb85c;
 	--error-color: #d9534f;
+	--light-color:#D47AE8;
 }
 
 * {
@@ -19,6 +20,7 @@ body {
 	font-size: 16px;
 	background: var(--light-color);
 	margin: 20px;
+	color: white;
 }
 
 ul {
@@ -32,10 +34,13 @@ a {
 .btn {
 	cursor: pointer;
 	padding: 5px 15px;
-	background: var(--light-color);
+	/* background: var(--light-color); */
+	background-image: linear-gradient(to right top, #4395f2, #6a80ee, #9c70e7, #cc7cd2, #e56ab6);
+
 	color: var(--dark-color-a);
 	border: 0;
 	font-size: 17px;
+	color: white;
 }
 
 /* Chat Page */
